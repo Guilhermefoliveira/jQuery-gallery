@@ -1,0 +1,127 @@
+/*
+#e4a691
+#f7efd8
+#c8c8a9
+#556270
+#273142
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #c8c8a9;
+    
+}
+
+header {
+  background-color: #e4a691;
+  padding: 16px 0;
+  color: #f7efd8;
+  display: flex;
+  border-bottom: 16px solid #7f4d3d3e;
+  justify-content: center;
+  text-transform: uppercase;
+  font-style: italic;
+  text-shadow: 4px 4px 4px #7f4d3d3e;
+}
+
+header button {
+  margin-left: 16px;
+
+}
+
+form {
+  background-color: #f7efd8;
+  padding: 24px 0;
+  text-align: center;
+  display: none;
+}
+
+input, 
+button {
+  padding: 8px;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul li {
+  max-width: 25%;
+  list-style: none;
+  position: relative;
+  max-height: 280px;
+  overflow-y: hidden;
+}
+
+ul li img {
+  width: 100%;
+  
+}
+
+#btn-nova-img {
+  background-color: #f7efd8;
+  border-radius: 4px;
+  border: 1px solid #7f4d3d3e;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#btn-add {
+  background-color: #e4a691;
+  border-radius: 4px;
+  border: 1px solid #7f4d3d3e;
+  color: #fff;
+}
+
+#btn-reset {
+  background-color: #8d4730;
+  border-radius: 4px;
+  border: 1px solid #7f4d3d3e;
+  color: #fff;
+}
+
+#btn-add:hover, #btn-reset:hover {
+  background-color: #273142;
+  transition: 0.9s;
+}
+
+.style-h2 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.overlay-img-link {
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all ease 0.7s;
+}
+
+.overlay-img-link a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul li:hover .overlay-img-link {
+opacity: 1;
+}
+
+
