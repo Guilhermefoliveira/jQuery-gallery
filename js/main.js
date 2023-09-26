@@ -23,7 +23,7 @@ $('form').on('submit', function(e) {
   `).appendTo(newItem);
   $(newItem).appendTo('ul');
   $(newItem).fadeIn(1000);
-  $(adressNewImg).val("");
+  $('#adress-new-img').val('');
 })
 })
 
